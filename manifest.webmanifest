@@ -1,0 +1,32 @@
+{
+  "name": "Sainte Louise de Marillac — Les Amis de l'église Saint-Rémy",
+  "short_name": "Ste Louise",
+  "description": "La vie de sainte Louise de Marillac, née à Ferrières-en-Brie, la Médaille miraculeuse, le parcours dans l'église Saint-Rémy et l'association Les Amis de l'église.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16263F",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -81,7 +81,18 @@ nav.tabs button.active svg{stroke:var(--gold)}
 .modal-close{position:absolute;top:12px;right:14px;background:none;border:0;font-size:26px;color:var(--mute);cursor:pointer;line-height:1}
 .toast{position:fixed;left:50%;bottom:88px;transform:translateX(-50%);background:var(--navy);color:#fff;padding:11px 20px;border-radius:999px;font-size:14px;z-index:80;opacity:0;transition:opacity .25s;pointer-events:none}
 .toast.show{opacity:1}
-</style></head><body>
+</style>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#16263F">
+  <link rel="icon" href="/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js');
+      });
+    }
+  </script></head><body>
 
 <button class="share-fab" onclick="openShare()" aria-label="Partager">
   <svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="19" r="2.6"/><path d="M8.3 10.8l7.4-4.3M8.3 13.2l7.4 4.3"/></svg>
